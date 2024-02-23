@@ -69,12 +69,17 @@ button:hover{
     display: none;
 
 }
-#hourly-forcaast{
+#hourly-forecast{
     margin-top: 50px;
     overflow-x:auto;
     white-space:nowrap;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    
+    
     
 }
 .hourly-item{
@@ -95,4 +100,3 @@ button:hover{
     color:#fff;
     margin-top:10px;
  }
- 
